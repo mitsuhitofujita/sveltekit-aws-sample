@@ -1,0 +1,12 @@
+{
+    "name": "sveltekit-aws-sample",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "18.18.1"
+        },
+        "ghcr.io/devcontainers/features/terraform:1": {
+            "version": "1.5.7"
+        }
+    }
+}
