@@ -8,5 +8,6 @@
         "ghcr.io/devcontainers/features/terraform:1": {
             "version": "1.5.7"
         }
-    }
+    },
+    "postCreateCommand": "npm install --global cdktf-cli@latest"
 }
